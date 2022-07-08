@@ -1,27 +1,21 @@
-<img src="https://www.artipie.com/logo.svg" width="64px" height="64px"/>
+<a href="http://artipie.com"><img src="https://www.artipie.com/logo.svg" width="64px" height="64px"/></a>
+
+[![Join our Telegramm group](https://img.shields.io/badge/Join%20us-Telegram-blue?&logo=telegram&?link=http://right&link=http://t.me/artipie)](http://t.me/artipie)
 
 [![EO principles respected here](https://www.elegantobjects.org/badge.svg)](https://www.elegantobjects.org)
 [![DevOps By Rultor.com](http://www.rultor.com/b/artipie/go-adapter)](http://www.rultor.com/p/artipie/go-adapter)
 [![We recommend IntelliJ IDEA](https://www.elegantobjects.org/intellij-idea.svg)](https://www.jetbrains.com/idea/)
 
-[![Build Status](https://img.shields.io/travis/artipie/go-adapter/master.svg)](https://travis-ci.org/artipie/go-adapter)
-[![Codecov branch](https://img.shields.io/codecov/c/gh/artipie/go-adapter/master)](https://codecov.io/gh/artipie/go-adapter/branch/master)
-[![Hits-of-Code](https://hitsofcode.com/github/artipie/go-adapter)](https://hitsofcode.com/view/github/artipie/go-adapter)
-[![PDD status](http://www.0pdd.com/svg?name=artipie/go-adapter)](http://www.0pdd.com/p?name=artipie/go-adapter)
-
-[![Maven Central](https://img.shields.io/maven-central/v/com.artipie/go-adapter.svg)](https://maven-badges.herokuapp.com/maven-central/com.artipie/go-adapter)
 [![Javadoc](http://www.javadoc.io/badge/com.artipie/go-adapter.svg)](http://www.javadoc.io/doc/com.artipie/go-adapter)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/artipie/goproxy/blob/master/LICENSE.txt)
-
-
+[![codecov](https://codecov.io/gh/artipie/go-adapter/branch/master/graph/badge.svg)](https://codecov.io/gh/artipie/go-adapter)
+[![Hits-of-Code](https://hitsofcode.com/github/artipie/go-adapter)](https://hitsofcode.com/view/github/artipie/go-adapter)
+[![Maven Central](https://img.shields.io/maven-central/v/com.artipie/go-adapter.svg)](https://maven-badges.herokuapp.com/maven-central/com.artipie/go-adapter)
+[![PDD status](http://www.0pdd.com/svg?name=artipie/go-adapter)](http://www.0pdd.com/p?name=artipie/go-adapter)
 
 This Java library turns your storage
 (files, S3 objects, anything) with Go sources into
 a Go repository.
-
-Similar solutions:
-
-  * [Artifactory](https://www.jfrog.com/confluence/display/RTF/Go+Registry)
 
 Some valuable references:
 
@@ -50,6 +44,9 @@ goproxy.update("example.com/foo/bar", "0.0.1");
 
 Read the [Javadoc](http://www.javadoc.io/doc/com.artipie/goproxy)
 for more technical details.
+If you have any question or suggestions, do not hesitate to [create an issue](https://github.com/artipie/go-adapter/issues/new) or contact us in
+[Telegram](https://t.me/artipie).  
+Artipie [roadmap](https://github.com/orgs/artipie/projects/3).
 
 ## How it works?
 
@@ -248,6 +245,8 @@ alt-svc: quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049="
 ```
 
 ## How to contribute
+
+Please read [contributing rules](https://github.com/artipie/artipie/blob/master/CONTRIBUTING.md).
 
 Fork repository, make changes, send us a pull request. We will review
 your changes and apply them to the `master` branch shortly, provided
